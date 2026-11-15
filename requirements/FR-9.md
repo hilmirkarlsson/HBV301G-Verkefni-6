@@ -26,3 +26,10 @@ Hilmir Karlsson
 **Forsendur og upphafsástand:** Notandi er með plan með æfingum á mánudegi og miðvikudegi og föstudegi.
 **Aðgerð eða inntak:** Notandi opnar appið á þriðjudegi.
 **Vænt niðurstaða:** Skjárinn sýnir að það sé hvíldardagur og að næsta æfing sé á miðvikudegi.
+
+### PT-FR-9-02
+**Krafa:** FR-9
+**Tegund:** jaðartilvik
+**Forsendur og upphafsástand:** Notandi er með plan með æfingum á mánudegi og miðvikudegi og föstudegi.
+**Aðgerð eða inntak:** Notandi opnar appið á sunnudegi sem er síðasti dagur vikunnar.
+**Vænt niðurstaða:** Skjárinn sýnir að það sé hvíldardagur og að næsta æfing sé á mánudegi í næstu viku.
