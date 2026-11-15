@@ -26,3 +26,10 @@ Hilmir Karlsson
 **Forsendur og upphafsástand:** Notandi er með plan þar sem fætur eru á mánudegi með hnébeygju fyrst og fótapressu næst.
 **Aðgerð eða inntak:** Notandi opnar appið á mánudegi.
 **Vænt niðurstaða:** Fyrsti skjárinn sýnir hnébeygju og svo fótapressu í þeirri röð.
+
+### PT-FR-7-02
+**Krafa:** FR-7
+**Tegund:** jaðartilvik
+**Forsendur og upphafsástand:** Notandi er með plan þar sem miðvikudagur er með eina æfingu sem er bekkpressa.
+**Aðgerð eða inntak:** Notandi opnar appið á miðvikudegi.
+**Vænt niðurstaða:** Fyrsti skjárinn sýnir bekkpressu og enga aðra æfingu.
