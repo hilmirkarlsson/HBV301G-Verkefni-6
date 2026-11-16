@@ -1,43 +1,26 @@
 # Staðsetning krafna í SRS
 
-Sýnið staðsetningu allra gildandi krafna, einnig eftir uppskiptingu. Aðlagið
-kaflaheiti að kerfinu og rökstyðjið skipulag út frá tilgangi skjalsins og þörfum
-lesenda. Þetta er yfirlit; ekki þarf fullbúna SRS-skýrslu.
-
 ## Kröfur
 
 | SRS-kafli eða undirkafli | Auðkenni og tenglar í kröfuskjöl | Rök fyrir staðsetningu og þörf lesenda |
 | --- | --- | --- |
-| <kafli> | <auðkenni og tenglar> | <rökstuðningur> |
+| 3.5 Virknikröfur | [FR-1 Skrá sett á einum skjá](requirements/FR-1.md) | Krafan lýsir hraðvirkri æfingaskráningu á einum skjá og styður notendakröfuna [UR-1](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/user_requirement.md#ur-1-skr%C3%A1-sett-hratt-f-1). Hönnuðir og prófarar á skráningarskjá finna alla grunnvirknina á sama stað. |
+| 3.5 Virknikröfur | [FR-3.1 Næsta sett með einni aðgerð](requirements/FR-3.1.md) | Krafan lýsir viðmótsaðgerð til að bæta við nýju setti (fyrri hluti FR-3) og styður [UR-1](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/user_requirement.md#ur-1-skr%C3%A1-sett-hratt-f-1). Lesendur sem vinna með viðmót á skráningarskjá sjá virknina hér. |
+| 3.5 Virknikröfur | [FR-3.2 Sett vistað þegar næsta sett bætist við](requirements/FR-3.2.md) | Krafan lýsir sjálfvirkri bakgrunnsvistun á undanfarandi setti (seinni hluti FR-3) og styður [UR-1](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/user_requirement.md#ur-1-skr%C3%A1-sett-hratt-f-1). Forritarar sem sjá um gagnagrunn og bakgrunnsvinnslu finna kröfuna með öðrum skráningarkröfum. |
+| 3.5 Virknikröfur | [FR-7 Sjá hvað er á dagskrá í dag](requirements/FR-7.md) | Krafan lýsir birtingu æfinga dagsins við opnun appsins og styður [UR-3](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/user_requirement.md#ur-3-fylgja-plani-%C3%AD-dag-f-2). Lesendur sem útfæra upphafsskjá og samþættingu við æfingaplan finna hana hér. |
+| 3.5 Virknikröfur | [FR-9 Hvíldardagur](requirements/FR-9.md) | Krafan lýsir viðmótsupplýsingum þegar engin æfing er á dagskrá og styður [UR-3](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/user_requirement.md#ur-3-fylgja-plani-%C3%AD-dag-f-2). Prófarar og hönnuðir sjá allar stöður fyrir æfingadaga og hvíldardaga á sama stað. |
+| 3.5 Virknikröfur | [FR-10 Tilbúin plön](requirements/FR-10.md) | Krafan lýsir vali á tilbúnum æfingaplönum og styður notendakröfuna [UR-4](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/user_requirement.md#ur-4-setja-upp-vikuna-f-2). Lesendur sem vinna með uppsetningu æfingaplana finna tengdar kröfur á sama stað. |
+| 3.5 Virknikröfur | [FR-11 Velja æfingadaga](requirements/FR-11.md) | Krafan lýsir valmöguleikum notanda um mætingartíðni og skiptingu plana á daga og styður [UR-4](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/user_requirement.md#ur-4-setja-upp-vikuna-f-2). Hönnuðir og forritarar sjá allt uppsetningarferli plana saman í virknikröfum. |
+| 3.5 Virknikröfur | [FR-12 Leiðbeiningar um æfingu](requirements/FR-12.md) | Krafan lýsir upplýsingagjöf um framkvæmd æfinga og styður [UR-4](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/user_requirement.md#ur-4-setja-upp-vikuna-f-2). |
+| 3.5 Virknikröfur | [FR-13 Saga hverrar æfingar](requirements/FR-13.md) | Krafan lýsir birtingu á sögu og árangri í æfingu (þyngd og endurtekningum úr hverju skipti) og styður [UR-5](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/user_requirement.md#ur-5-sj%C3%A1-hvort-%C3%A9g-er-a%C3%B0-b%C3%A6ta-mig-f-3). Forritarar og prófarar gagna finna tölfræði hér. |
 
 ## Tengdar upplýsingar
 
-Taflan hér fyrir neðan hjálpar lesanda að finna bakgrunnsupplýsingar sem þarf
-til að skilja og túlka kröfurnar. Til dæmis getur krafa vísað til notendahlutverks,
-hugtaks eða viðskiptareglu sem er útskýrt annars staðar. Taflan sýnir hvar þær
-upplýsingar eru og hvaða kröfum þær tengjast. Hún dregur líka fram upplýsingar
-sem vantar eða þarf að skýra.
-
-Nýtið gögn sem þegar eru til, t.d. úr verkefni 1. Ekki þarf að skrifa þau upp
-aftur eða búa til nýtt skjal fyrir hverja röð. Fyllið töfluna út þannig:
-
-- Í **Staðsetning / auðkenni / tengill** setjið þið tengil á viðeigandi skjal,
-  kafla eða issue og tilgreinið auðkenni ef það er til.
-- Í **Tengsl við kröfur eða sýnileg eyða og eftirfylgni** tilgreinið þið hvaða
-  kröfum upplýsingarnar tengjast, með auðkennum, og hvernig þær hjálpa við
-  að skilja kröfurnar.
-- Ef nauðsynlegar upplýsingar vantar, skráið `TBD`, hvað vantar,
-  ábyrgðaraðila og næsta skref. Ef atriði á ekki við, skrifið „Á ekki við“
-  og rökstyðjið stuttlega.
-
-Til dæmis gæti röðin **Notendahlutverk** vísað í kafla í verkefni 1 og skýrt
-að þar sé hlutverkið „umsjónarmaður“ skilgreint, sem krafan FR-03 vísar til.
-
 | Upplýsingar | Staðsetning / auðkenni / tengill | Tengsl við kröfur eða sýnileg eyða og eftirfylgni |
 | --- | --- | --- |
-| Samhengi kerfisins | <tilvísun> | <tengsl eða TBD> |
-| Notendahlutverk | <tilvísun> | <tengsl eða TBD> |
-| Orðasafn | <tilvísun> | <tengsl eða TBD> |
-| Viðskiptareglur | <tilvísun> | <tengsl eða TBD> |
-| Gæðakröfur | <tilvísun> | <tengsl eða TBD> |
-| Forsendur | <tilvísun> | <tengsl eða TBD> |
+| Samhengi kerfisins | [SRS verkefni 1, kafli 1.2 Umfang og mörk kerfisins](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/SRS.md#12-umfang-og-m%C3%B6rk-kerfisins) | Skýrir hvernig æfingaskráning (F-1), æfingaplan (F-2) og framfarir (F-3) tengjast FR-1, FR-3.1, FR-3.2, FR-7, FR-9, FR-10, FR-11, FR-12 og FR-13. |
+| Notendahlutverk | [SRS verkefni 1, kafli 2.1 Notendahópar](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/SRS.md#21-notendah%C3%B3par) | FR-1, FR-3.1 og FR-3.2 styðja vanan notanda sem vill skrá sett hratt. FR-7 og FR-9 styðja notendur sem fylgja dagsplani. FR-10, FR-11 og FR-12 styðja byrjendur og þá sem setja upp vikuna fyrirfram. FR-13 styður notendur sem vilja fylgjast með framvindu sinni. |
+| Orðasafn | [SRS verkefni 1, kafli 1.3 Skilgreiningar](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/SRS.md#13-skilgreiningar) | Skilgreinir hugtök eins og „plan“, „sett“, „endurtekning“, „hvíldardagur“ og önnur hugtök sem koma fyrir í kröfunum. |
+| Viðskiptareglur | [VR-3 Framfarir reiknaðar út frá skráningum](https://github.com/hilmirkarlsson/HBV301G-Verkefni-5/blob/master/business-rules.md)| Tengist FR-3.2 og FR-13 þar sem saga og framfarir byggjast á áður skráðum æfingagögnum. |
+| Gæðakröfur | [GÆ-2 Nytsemi](https://github.com/hilmirkarlsson/HBV301G-Verkefni-5/blob/master/quality-attributes.md) | FR-1, FR-3.1, FR-3.2, FR-7, FR-9, FR-10, FR-11 og FR-12 styðja við markmið um að notandi geti fljótt skráð/notað appið án aðstoðar. |
+| Forsendur | [F-1 Æfingaskráning](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/feature.md#f-1-%C3%A6fingaskr%C3%A1ning), [F-2 Æfingaplan](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/feature.md#f-2-%C3%A6fingaplan), [F-3 Framfarir](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/feature.md#f-3-framfarir) | FR-1, FR-3.1 og FR-3.2 byggja á F-1. FR-7, FR-9, FR-10, FR-11 og FR-12 byggja á F-2. FR-13 byggir á því að notandi hafi áður skráð æfingar undir F-3. |
