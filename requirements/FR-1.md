@@ -25,4 +25,4 @@ Hilmir Karlsson
 **Tegund:** venjulegt
 **Forsendur og upphafsástand:** Notandi er með appið opið á skjánum þar sem sett eru skráð.
 **Aðgerð eða inntak:** Notandi skráir eitt sett af hnébeygju með 8 endurtekningum á 80 kg.
-**Vænt niðurstaða:** Settið er skráð með æfingu endurtekningum og þyngd og notandi fór aldrei af skjánum.
+**Vænt niðurstaða:** Settið er skráð með æfingu, endurtekningum og þyngd og notandi fór aldrei af skjánum.
